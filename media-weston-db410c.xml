@@ -16,7 +16,7 @@
   <!-- Qualcomm layers  -->
   <project path="meta-qcom" remote="github" name="ndechesne/meta-qcom" revision="master" />
   <!-- meta-lhg -->
-  <project path="meta-lhg" remote="g.l.o-andrey.konovalov" name="meta-lhg" revision="test" />
+  <project path="meta-lhg" remote="g.l.o-andrey.konovalov" name="meta-lhg" revision="master" />
   <!-- meta-linaro -->
   <project path="meta-linaro" remote="g.l.o-andrey.konovalov" name="meta-linaro" revision="lhg-lof.test" />
   <!-- Open Embedded layers -->
