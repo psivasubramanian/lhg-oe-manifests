@@ -19,6 +19,8 @@
   <project path="meta-lhg" remote="g.l.o-andrey.konovalov" name="meta-lhg" revision="master" />
   <!-- meta-linaro -->
   <project path="meta-linaro" remote="g.l.o-andrey.konovalov" name="meta-linaro" revision="lhg-lof.test" />
+  <!-- UNOFFICIAL support for the GStreamer 1.0 framework -->
+  <project path="meta-gstreamer1.0" remote="github" name="dv1/meta-gstreamer1.0" revision="master" />
   <!-- Open Embedded layers -->
   <project path="openembedded-core" remote="oe" name="openembedded-core" revision="master" />
   <project path="openembedded-core/bitbake" remote="oe" name="bitbake" revision="master" />
