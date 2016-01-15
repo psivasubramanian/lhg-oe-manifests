@@ -9,16 +9,12 @@
            fetch="git://git.openembedded.org/"
            review="" />
 
-  <remote  name="g.l.o-andrey.konovalov"
-           fetch="https://git.linaro.org/people/andrey.konovalov/"
-           review="" />
-
   <!-- Qualcomm layers  -->
   <project path="meta-qcom" remote="github" name="ndechesne/meta-qcom" revision="master" />
   <!-- meta-lhg -->
-  <project path="meta-lhg" remote="g.l.o-andrey.konovalov" name="meta-lhg" revision="master" />
+  <project path="meta-lhg" remote="github" name="linaro-home/meta-lhg" revision="master" />
   <!-- meta-linaro -->
-  <project path="meta-linaro" remote="g.l.o-andrey.konovalov" name="meta-linaro" revision="lhg-lof.test" />
+  <project path="meta-linaro" remote="github" name="linaro-home/meta-linaro" revision="lhg-lof.test" />
   <!-- UNOFFICIAL support for the GStreamer 1.0 framework -->
   <project path="meta-gstreamer1.0" remote="github" name="dv1/meta-gstreamer1.0" revision="master" />
   <!-- Open Embedded layers -->
